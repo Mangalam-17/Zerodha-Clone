@@ -57,13 +57,10 @@ app.post("/newOrder", async (req, res) => {
   }
 });
 
-// The corrected section:
+// The corrected and updated section:
 // Connect to MongoDB first
 mongoose
-  .connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(uri)
   .then(() => {
     console.log("MongoDB connected!");
 
