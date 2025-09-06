@@ -1,0 +1,20 @@
+# General ignore rules
+.DS_Store
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+# This is the most crucial part for sensitive data
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs and build directories
+log/
+logs/
+*.log
+dist/
+build/
