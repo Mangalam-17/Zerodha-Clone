@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-const authRoute = require("./Routes/AuthRoute");
+const authRoute = require("./routes/AuthRoute");
 
 const { HoldingsModel } = require("./models/HoldingsModel");
 const { PositionsModel } = require("./models/PositionsModel");
