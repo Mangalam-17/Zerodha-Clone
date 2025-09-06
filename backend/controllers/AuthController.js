@@ -1,5 +1,5 @@
 // backend/Controllers/AuthController.js
-const User = require("../Models/UsersModel");
+const User = require("../models/UsersModel");
 const { createSecretToken } = require("../util/SecretToken");
 const bcrypt = require("bcryptjs");
 
